@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-    cout<<"Hello World";
+    int  sum = 6;
+    cout<<sum<<"This is the var";
     return 0;
+
 
 }
