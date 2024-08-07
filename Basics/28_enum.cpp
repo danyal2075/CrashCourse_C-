@@ -3,7 +3,8 @@ using namespace std;
 int main(){
     
     enum food {breakfast, lunch, dinner};
-    cout<<lunch;
+    food m1 = lunch;
+    cout<<m1;
 
     return 0;
 }

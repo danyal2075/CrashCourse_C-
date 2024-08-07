@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-struct money
+union money
 {
     /* data */
     int rice;
@@ -12,7 +12,7 @@ struct money
 
 
 int main(){
-    struct money m1;
+    union money m1;
     m1.rice = 1;
     cout<<m1.rice;
     
