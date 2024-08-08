@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int product(int a, int b){
-    static int c;
+    static int c = 0; // this will excute just once
     c = c + 1;
     return a * b + c;
 }
