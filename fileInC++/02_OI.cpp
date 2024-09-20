@@ -4,6 +4,7 @@
 // fstreambase
 // ifstream
 // ofstream
+
 using namespace std;
 
 template <typename val, typename str>
