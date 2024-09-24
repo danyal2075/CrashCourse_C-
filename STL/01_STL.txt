@@ -1,0 +1,8 @@
+STL: Standard Template Library
+    - it contains well tested classes and functions, which can be used
+    - saving time
+
+    Component of STL:
+        - Contianers: Object -> Stores data using templates classes e.g vectors 
+        - Algorithem: use templates functions e.g sorting, searching 
+        - Iterators: Object points to an element in a Contianer, Handled just like pointers
